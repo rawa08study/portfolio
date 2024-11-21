@@ -1,8 +1,8 @@
 ---
 Logo: image/logo.png
-Tagline: My portfolio.
+Tagline: Min portfolio.
 Social:
-    - title: Link till sidans github repo.
+    - title: Länk till sidans github repo.
       url: https://github.com/rawa08study/portfolio
       icon: github fa-lg
       iconText: Bth-Study
