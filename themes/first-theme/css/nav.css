@@ -60,6 +60,7 @@
 
 .logo {
     width: 8rem;
+    min-width:8rem;
     height: 100%;
     padding: 0.25rem;
 }
