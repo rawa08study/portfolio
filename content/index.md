@@ -1,11 +1,13 @@
 ---
 Title: Home
-Description: This is our index page.
+Description: En kort presentation om Rawa
 ---
 
-Home page
-==========================
 
-The source for this page is in `content/index.md`.
+![Rawa Aref](image/Rawa_Aref.jpeg)
 
-This is a sample home page written in markdown with some frontmatter defined.
+Välkommen till min sida.  
+Jag heter Rawa och bor i Stockholm.  
+Jag arbetar som mjukvaruutvecklare på ett finansbolag i Stockholm.  
+De teknologier jag dagligen använder är främst Apex, ett starkt typat programmeringsspråk som körs på Salesforce-plattformen.  
+Jag arbetar även med vår standard tech-stack som inkluderar PHP med ramverket Symfony, JavaScript med React och Next.js, samt GraphQL.
