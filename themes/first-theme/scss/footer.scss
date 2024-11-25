@@ -1,0 +1,57 @@
+@use 'colors' as c;
+@use 'break-points' as bp;
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border-top: 1px solid c.$light-gray;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  @include bp.PHABLET_BP {
+    flex-direction: row;
+    row-gap: 0;
+  }
+}
+
+.footer p {
+  flex: 1;
+  color: c.$b-100;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.social-navigation {
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.social-links {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.social-links li {
+  margin: 0;
+}
+
+.social-links a {
+  display: flex;
+  column-gap: 0.25rem;
+  align-items: center;
+  text-decoration: none;
+  color: c.$b-100;
+}
+
