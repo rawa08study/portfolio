@@ -1,4 +1,5 @@
 $MOBILE_MIN_WIDTH: 320px;
+$PHABLET_MIN_WIDTH: 480px;
 $TABLET_MIN_WIDTH: 768px;
 $LAPTOP_MIN_WIDTH: 992px;
 $DESKTOP_MIN_WIDTH: 1200px;
@@ -6,6 +7,12 @@ $HD_MIN_WIDTH: 1440px;
 
 @mixin MOBILE_BP {
   @media (min-width: #{$MOBILE_MIN_WIDTH}) {
+    @content;
+  }
+}
+
+@mixin PHABLET_BP {
+  @media (min-width: #{$PHABLET_MIN_WIDTH}) {
     @content;
   }
 }
@@ -33,7 +40,3 @@ $HD_MIN_WIDTH: 1440px;
     @content;
   }
 }
-
-//   @include TABLET_BP {
-//     color: red;
-//   }
