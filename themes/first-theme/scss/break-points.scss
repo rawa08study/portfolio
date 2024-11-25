@@ -1,0 +1,39 @@
+$MOBILE_MIN_WIDTH: 320px;
+$TABLET_MIN_WIDTH: 768px;
+$LAPTOP_MIN_WIDTH: 992px;
+$DESKTOP_MIN_WIDTH: 1200px;
+$HD_MIN_WIDTH: 1440px;
+
+@mixin MOBILE_BP {
+    @media (min-width: #{$MOBILE_MIN_WIDTH}) {
+      @content;
+    }
+  }
+
+  @mixin TABLET_BP {
+    @media (min-width: #{$TABLET_MIN_WIDTH}) {
+      @content;
+    }
+  }
+  
+  @mixin LAPTOP_BP {
+    @media (min-width: #{$LAPTOP_MIN_WIDTH}) {
+      @content;
+    }
+  }
+  
+  @mixin DESKTOP_BP {
+    @media (min-width: #{$DESKTOP_MIN_WIDTH}) {
+      @content;
+    }
+  }
+  
+  @mixin HD_BP {
+    @media (min-width: #{$HD_MIN_WIDTH}) {
+      @content;
+    }
+  }
+
+//   @include TABLET_BP {
+//     color: red;
+//   }
