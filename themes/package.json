@@ -1,0 +1,22 @@
+{
+  "name": "pico-portfolio",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "lint": "stylelint \"**/*.scss\"",
+    "style": "sass first-theme/scss/style.scss first-theme/css/style.css --no-source-map",
+    "style-min": "sass first-theme/scss/style.scss first-theme/css/style.min.css --no-source-map --style compressed"
+  },
+  "author": "Rawa Aref",
+  "license": "ISC",
+  "devDependencies": {
+    "normalize.css": "^8.0.1",
+    "sass": "^1.81.0",
+    "stylelint": "^16.10.0",
+    "stylelint-config-sass-guidelines": "^12.1.0"
+  }
+}
