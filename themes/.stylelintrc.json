@@ -4,7 +4,8 @@
     ],
     "rules": {
         "at-rule-no-unknown": null,
-        "selector-max-compound-selectors": 5
+        "selector-max-compound-selectors": 5,
+        "scss/dollar-variable-pattern": null
     },
     "ignoreFiles": [
         "**/node_modules/",
