@@ -9,7 +9,7 @@
                 {% for social in pages["_meta"].meta.social %}
                     <li>
                         <a href="{{ social.url }}" title="{{ social.title }}" role="button" target="_blank">
-                            <i class="fa fa-{{ social.icon }}" aria-hidden="true"></i>
+                            <i class="{{ social.icon }}" aria-hidden="true"></i>
                             {% if social.iconText %}
                                 <p class="icon-text">
                                     {{ social.iconText }}
