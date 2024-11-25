@@ -7,10 +7,10 @@
         </div>
         {% endif %}
         
-    <ul class="nav-main_list no-bullets">
+    <ul class="nav-main-list no-bullets">
         {% for page in pages(depthOffset=-1) if page.title and not page.hidden %}
             <li class="nav-link">
-                <a class="{{ 'nav-link_btn' }}{% if page.id == current_page.id %} active_btn{% endif %}" href="{{ page.url }}">{{ page.title }}</a>
+                <a class="{{ 'nav-link-btn' }}{% if page.id == current_page.id %} active-btn{% endif %}" href="{{ page.url }}">{{ page.title }}</a>
             </li>
         {% endfor %}
     </ul>
