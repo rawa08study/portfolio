@@ -13,4 +13,6 @@ Social:
     - title: Link till min linkedin.
       url: https://linkedin.com/in/rawaaref
       icon: fab fa-linkedin fa-lg
+      
+Copyright: 2024 Rawa Aref
 ---
