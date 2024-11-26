@@ -1,4 +1,10 @@
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@use '../../shared/fontawesome/scss/fontawesome';
+@use '../../shared/fontawesome/scss/brands';
+@use '../../shared/fontawesome/scss/solid';
+@use '../../shared/fontawesome/scss/regular';
 @use '../../node_modules/normalize.css/normalize.css';
+
 @use 'nav';
 @use 'content';
 @use 'footer';
