@@ -10,12 +10,11 @@
                 {% for social in pages["_meta"].meta.social %}
                     <li>
                         <a href="{{ social.url }}" title="{{ social.title }}" role="button" target="_blank">
-                            <i class="{{ social.icon }}" aria-hidden="true"></i>
-                            {% if social.iconText %}
-                                <p class="icon-text">
+                            <i class="{{ social.icon }}" aria-hidden="true">
+                                {% if social.iconText %}
                                     {{ social.iconText }}
-                                </p>
-                            {% endif %}
+                                {% endif %}
+                            </i>
                             <span class="sr-only">
                                 {{ social.title }}
                             </span>

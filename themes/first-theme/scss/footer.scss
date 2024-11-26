@@ -24,15 +24,24 @@
 .footer p {
   flex: 1;
   color: c.$b-100;
-  font-size: 1rem;
+  font-size: 1.5rem;
   text-align: center;
+  font-family: 'Morganite', sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  letter-spacing: 1px;
+
 }
+
+
+
 
 .copyright-text::before {
   content: '\00A9';
   font-size: inherit; 
   color: inherit;     
 }
+
 
 .social-navigation {
   display: flex;
