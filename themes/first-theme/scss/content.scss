@@ -30,7 +30,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  row-gap: 1rem;
+  row-gap: 0.5rem;
   padding: 1rem;
   font-family: 'Times New Roman', Times, serif;
   overflow: scroll;
@@ -62,4 +62,36 @@ body {
     width: 500px;
     height: 500px;
   }
+}
+
+@mixin heading-styles {
+  font-family: 'Morganite', sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+
+
+.main {
+  > h1 {
+    @include heading-styles;
+    font-size: 4rem;
+  }
+
+  > h2 {
+    @include heading-styles;
+    font-size: 3rem;
+  }
+
+  > h3 {
+    @include heading-styles;
+    font-size: 2rem;
+    letter-spacing: 1.5px;
+  }
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+  color: inherit;
 }
