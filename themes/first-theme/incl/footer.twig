@@ -1,9 +1,10 @@
 <footer class="footer">
     <div class="row">
-
-        <p>
-            Copyright &copy; 2024 Rawa Aref
-        </p>
+        {% if pages["_meta"].meta.Copyright %}
+            <p class="copyright-text">
+                {{ pages["_meta"].meta.Copyright }}
+            </p>
+        {% endif %}
         <nav class="social-navigation">
             <ul class="social-links">
                 {% for social in pages["_meta"].meta.social %}
