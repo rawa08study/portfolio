@@ -1,0 +1,42 @@
+@use 'break-points' as bp;
+@use 'colors' as c;
+
+.technology-page {
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 1em;
+
+  @include bp.TABLET_BP {
+    grid-template-columns: 200px 1fr;
+    gap: 1em;
+  }
+}
+
+.sidebar {
+  display: none;
+
+  @include bp.TABLET_BP {
+    display: flex;
+    background-color: c.$gray-100;
+    padding: 1em;
+    border-right: 1px solid c.$light-gray;
+  }
+}
+
+.technology-link-nav > ul {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2em;
+}
+
+.icon-list-item {
+  display: flex;
+  flex-direction: row-reverse;
+  column-gap: 0.25rem;
+}
+
+.technology-content {
+  padding: 1em;
+  width: 100%;
+}

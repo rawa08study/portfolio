@@ -1,0 +1,27 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+    <div class="technology-page">
+        <aside class="sidebar">
+            <nav class="technology-link-nav">
+                <ul>
+                    <li class="fab fa-brands fa-js fa-lg icon-list-item"><a href="{{ base_url }}/technology/javascript/">JavaScript</a></li>
+                    <li class="fab fa-brands fa-php fa-lg icon-list-item"><a href="{{ base_url }}/technology/php/">PHP</a></li>
+                    <li class="fab fa-brands fa-html5 fa-lg icon-list-item"><a href="{{ base_url }}/technology/html/">HTML</a></li>
+                    <li class="fab fa-brands fa-css3-alt fa-lg icon-list-item"><a href="{{ base_url }}/technology/css/">CSS</a></li>
+                    <li class="fab fa-brands fa-python fa-lg icon-list-item"><a href="{{ base_url }}/technology/python/">Python</a></li>
+                    <li class="fab fa-brands fa-git-alt fa-lg icon-list-item"><a href="{{ base_url }}/technology/git/">Git</a></li>
+                    <li class="fa fa-regular fa-database fa-lg icon-list-item"><a href="{{ base_url }}/technology/sqlite/">SQLite</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <div class="technology-content">
+            {{ content }}
+        </div>
+    </div>
+    
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>
