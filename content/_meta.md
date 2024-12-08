@@ -14,6 +14,12 @@ Social:
       url: https://linkedin.com/in/rawaaref
       icon: fab fa-linkedin
       iconText: LinkedIn
+    - title: Dark Mode
+      url: ?action=theme
+      icon: fas fa-moon
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: fas fa-trash-alt
       
 Copyright: 2024 Rawa Aref
 ---
