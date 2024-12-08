@@ -5,8 +5,23 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @use '../../shared/fontawesome/scss/regular';
 @use '../../node_modules/normalize.css/normalize.css';
 
+
+
+@use 'utils/styles' as * with (
+  $primary-background-color: #1e1e2e,
+    $secondary-background-color: #282846,
+    $primary-border-color: #5c1dba,
+    $primary-font-color: #d4d4e3,
+    $primary-button-color: #803ee0,
+    $secondary-button-color: #a46efb,
+    $primary-hover-color: #5c1dba,
+    $primary-accent-color: #00e053,
+    $secondary-font-color: #d4d4e3,
+);
+
 @use 'nav';
 @use 'content';
 @use 'footer';
 @use 'technology';
 @use 'technologies';
+

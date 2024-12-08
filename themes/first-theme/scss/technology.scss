@@ -1,5 +1,4 @@
-@use 'break-points' as bp;
-@use 'colors' as c;
+@use 'utils/styles' as *;
 
 .technology-page {
   flex-grow: 1;
@@ -7,7 +6,7 @@
   grid-template-columns: 1fr;
   padding: 1em;
 
-  @include bp.TABLET_BP {
+  @include TABLET_BP {
     grid-template-columns: 200px 1fr;
     gap: 1em;
   }
@@ -16,11 +15,11 @@
 .sidebar {
   display: none;
 
-  @include bp.TABLET_BP {
+  @include TABLET_BP {
     display: flex;
-    background-color: c.$gray-100;
+    background-color: $primary-background-color;
     padding: 1em;
-    border-right: 1px solid c.$light-gray;
+    border-right: 1px solid $primary-border-color;
   }
 }
 
@@ -34,9 +33,25 @@
   display: flex;
   flex-direction: row-reverse;
   column-gap: 0.25rem;
+  color: $primary-font-color;
+  transition: transform 0.2s ease-in-out;
+  
+  &:hover {
+    transform: scale(1.2);
+  }
 }
 
 .technology-content {
-  padding: 1em;
+  padding: 1rem;
   width: 100%;
+}
+
+pre {
+  width: 100%;
+  padding: 1rem;
+  max-width: 100%;
+  color: $primary-accent-color;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-break: break-word;
 }

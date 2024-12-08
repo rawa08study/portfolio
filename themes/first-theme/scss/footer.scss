@@ -1,11 +1,11 @@
-@use 'colors' as c;
-@use 'break-points' as bp;
+@use 'utils/styles' as *;
 
 .footer {
   display: flex;
   flex-direction: column;
   padding: 1rem;
-  border-top: 1px solid c.$light-gray;
+  border-top: 1px solid $primary-border-color;
+  background-color: $primary-background-color;
 }
 
 .row {
@@ -15,7 +15,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  @include bp.PHABLET_BP {
+  @include PHABLET_BP {
     flex-direction: row;
     row-gap: 0;
   }
@@ -23,7 +23,7 @@
 
 .footer p {
   flex: 1;
-  color: c.$b-100;
+  color: $primary-font-color;
   font-size: 1.5rem;
   text-align: center;
   font-family: 'Morganite', sans-serif;
@@ -62,5 +62,5 @@
   column-gap: 0.25rem;
   align-items: center;
   text-decoration: none;
-  color: c.$b-100;
+  color: $primary-font-color;
 }

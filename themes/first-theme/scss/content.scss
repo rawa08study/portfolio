@@ -1,5 +1,4 @@
-@use 'colors' as c;
-@use 'break-points' as bp;
+@use 'utils/styles' as *;
 
 * {
   box-sizing: border-box;
@@ -7,24 +6,24 @@
   margin: 0;
   padding: 0;
 }
-  
-  
+
+
 .hidden {
   display: none !important;
 }
-  
+
 html,
 body {
   height: 100%;
-  background-color: c.$gray-100;
+  background-color: $primary-background-color;
 }
-  
+
 body {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
 }
-  
+
 .main {
   flex-grow: 1;
   display: flex;
@@ -34,16 +33,18 @@ body {
   padding: 1rem;
   font-family: 'Times New Roman', Times, serif;
   overflow: scroll;
-  background-color: c.$w-100;
-    
-  @include bp.TABLET_BP {
+  background-color: $secondary-background-color;
+
+  @include TABLET_BP {
     align-items: flex-start;
   }
 }
-  
-.main p {
+
+p {
   text-align: center;
-  @include bp.TABLET_BP {
+  color: $primary-font-color;
+
+  @include TABLET_BP {
     text-align: start;
   }
 }
@@ -53,12 +54,12 @@ body {
   height: 300px;
   object-fit: cover;
 
-  @include bp.TABLET_BP {
+  @include TABLET_BP {
     width: 400px;
     height: 400px;
   }
 
-  @include bp.DESKTOP_BP {
+  @include DESKTOP_BP {
     width: 500px;
     height: 500px;
   }
@@ -69,25 +70,23 @@ body {
   font-weight: 900;
   font-style: normal;
   letter-spacing: 1px;
+  color: $primary-font-color;
 }
 
+h1 {
+  @include heading-styles;
+  font-size: 4rem;
+}
 
-.main {
-  > h1 {
-    @include heading-styles;
-    font-size: 4rem;
-  }
+h2 {
+  @include heading-styles;
+  font-size: 3rem;
+}
 
-  > h2 {
-    @include heading-styles;
-    font-size: 3rem;
-  }
-
-  > h3 {
-    @include heading-styles;
-    font-size: 2rem;
-    letter-spacing: 1.5px;
-  }
+h3 {
+  @include heading-styles;
+  font-size: 2rem;
+  letter-spacing: 1.5px;
 }
 
 a {

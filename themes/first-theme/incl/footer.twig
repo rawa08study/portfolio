@@ -9,7 +9,7 @@
             <ul class="social-links">
                 {% for social in pages["_meta"].meta.social %}
                     <li>
-                        <a href="{{ social.url }}" title="{{ social.title }}" role="button" target="_blank">
+                        <a href="{{ social.url }}" title="{{ social.title }}" role="button">
                             <i class="{{ social.icon }}" aria-hidden="true">
                                 {% if social.iconText %}
                                     {{ social.iconText }}

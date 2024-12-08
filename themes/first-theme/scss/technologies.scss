@@ -1,5 +1,4 @@
-@use 'break-points' as bp;
-@use 'colors' as c;
+@use 'utils/styles' as *;
 
 .landingpage {
   flex-grow: 1;
@@ -9,7 +8,7 @@
   gap: 2em 1em;
   padding: 1em;
 
-  @include bp.TABLET_BP {
+  @include TABLET_BP {
     grid-template-columns: repeat(3, 1fr);
   }
 }
@@ -19,7 +18,7 @@
   justify-self: center;
   text-align: center;
 
-  @include bp.TABLET_BP {
+  @include TABLET_BP {
     grid-column: span 3;
   }
 }
@@ -32,13 +31,14 @@
   padding: 1em;
   border: 1px solid #ccc;
   border-radius: 5px;
-  background-color: c.$pale-lavender;
+  background-color: $pale-lavender;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
   cursor: pointer;
 
   &.wide {
     grid-column: span 1;
 
-    @include bp.TABLET_BP {
+    @include TABLET_BP {
       grid-column: span 2;
     }
   }
@@ -46,7 +46,7 @@
   &.full {
     grid-column: span 1;
 
-    @include bp.TABLET_BP {
+    @include TABLET_BP {
       grid-column: span 3;
     }
   }
@@ -56,13 +56,13 @@
   text-decoration: none;
   min-width: 10rem;
   text-align: center;
-  color: c.$w-100;
+  color: $w-100;
   padding: 1rem;
-  background-color: c.$blue-violet;
+  background-color: $blue-violet;
   border-radius: 5px;
-  transition: background-color 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
 
   &:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
   }
 }
