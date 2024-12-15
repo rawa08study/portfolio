@@ -26,9 +26,9 @@ Detta skapar en variation som illustrerar hur visuella element används för att
 ## Metod
 1. **Verktyg som användes**:  
    1. **Färganalys**:   
-   &nbsp;&nbsp;&nbsp;&nbsp;Chrome DevTools i webbläsaren google chrome och [Coolors](https://coolors.co/) för att skapa färgpaletter.  
+   &nbsp;&nbsp;&nbsp;&nbsp;[ColorZilla](https://www.colorzilla.com/) för att extrahera färger, [Chrome DevTools](https://developer.chrome.com/docs/devtools) och [Coolors](https://coolors.co/) för att skapa färgpaletter.  
    2. **Typografianalys**:   
-   &nbsp;&nbsp;&nbsp;Chrome DevTools och [Google Fonts](https://fonts.google.com/).  
+   &nbsp;&nbsp;&nbsp;[Chrome DevTools](https://developer.chrome.com/docs/devtools) och [Google Fonts](https://fonts.google.com/).  
 2. **Tillvägagångssätt**:  
     1. Jag extraherade färg och style för webbplatsens startsida.  
     2. Jag identifierade de primära färgpaletterna.  
@@ -50,11 +50,12 @@ Detta skapar en variation som illustrerar hur visuella element används för att
  </div>   
 
    **Färgschema**:   
-   &nbsp;&nbsp;&nbsp;&nbsp;Analogt (varma och fokuserade färger).   
+   &nbsp;&nbsp;&nbsp;&nbsp; Komplementärt (teal, lavendel och ljusblå).   
    **Typografi**:  
     &nbsp;&nbsp;&nbsp;&nbsp;Rubriker: Montserrat (fet, geometrisk sans-serif).  
     &nbsp;&nbsp;&nbsp;&nbsp;Brödtext: Lora (serif, mjuk).  
-    **Kort analys**: Den starka färgpaletten och moderna typografin förstärker känslan av kreativitet och fokus, vilket passar en UI/UX-designer som Sean.
+    **Kort analys**: De tre huvudfärgerna – mörk teal, lavendel och ljusblå – skapar en professionell men lekfull känsla som passar en UI/UX-designer.   
+    Typografin kombinerar modernitet och elegans, vilket stärker webbplatsens budskap om kreativitet och användarvänlig design.
 
 ---
 
@@ -115,7 +116,7 @@ Analyserade webbplatser:
     [Sean Halpin](https://seanhalpin.design)  
     [Elaine Eksvärd](https://elaineeksvard.se/)  
     [Timothy Achumba](https://timothyachumba.com)  
-    Verktyg: [Chrome DevTools](https://developer.chrome.com/docs/devtools), [Coolors](https://coolors.co/), [Google Fonts](https://fonts.google.com/).
+    Verktyg: [Chrome DevTools](https://developer.chrome.com/docs/devtools), [Coolors](https://coolors.co/), [Google Fonts](https://fonts.google.com/), [ColorZilla](https://www.colorzilla.com/).
 
 ---
 

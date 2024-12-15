@@ -27,9 +27,14 @@
 
   a {
     text-decoration: none;
-    color: #06f;
-    transition: transform 0.2s ease-in-out;
+    color: #5796f5;
+    transition: color 0.2s ease-in-out;
   }
+
+  a:hover {
+    color: rgb(31, 116, 244);
+  }
+
 
 
   img {
@@ -61,15 +66,15 @@
 }
 
 .sean-1 {
-  background-color: #ff6b6b;
+  background-color: #025a4e;
 }
 
 .sean-2 {
-  background-color: #ffe66d;
+  background-color: #d094e5;
 }
 
 .sean-3 {
-  background-color: #247ba0;
+  background-color: #bddff9;
 }
 
 .elain-1 {
