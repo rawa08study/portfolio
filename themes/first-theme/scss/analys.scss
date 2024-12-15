@@ -1,0 +1,97 @@
+@use 'utils/styles' as *;
+
+.analys-page {
+  flex-grow: 1;
+  font-family: sans-serif, Verdana, Geneva, Tahoma;
+}
+
+.analys-content {
+  line-height: 2;
+
+  h1 {
+    margin: 0;
+  }
+
+  hr {
+    margin: 2em 0;
+  }
+
+  ol {
+    padding: 0 1em;
+    list-style-type: none;
+  }
+
+  li {
+    color: $primary-font-color;
+  }
+
+  a {
+    text-decoration: none;
+    color: #06f;
+    transition: transform 0.2s ease-in-out;
+  }
+
+
+  img {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    object-fit: contain;
+    margin: 0 0 1em;
+    border-radius: 5px;
+  }
+
+
+}
+
+.palett-wrapper {
+  display: flex;
+  column-gap: 0.5em;
+  width: calc(300px + 3em);
+  margin: 0.5em 0;
+  padding: 0.75em 1em;
+  border-radius: 5px;
+}
+
+.palett-box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid $primary-font-color;
+}
+
+.sean-1 {
+  background-color: #ff6b6b;
+}
+
+.sean-2 {
+  background-color: #ffe66d;
+}
+
+.sean-3 {
+  background-color: #247ba0;
+}
+
+.elain-1 {
+  background-color: #fff;
+}
+
+.elain-2 {
+  background-color: #f2c94c;
+}
+
+.elain-3 {
+  background-color: #333;
+}
+
+.tim-1 {
+  background-color: #000;
+}
+
+.tim-2 {
+  background-color: #fff;
+}
+
+.tim-3 {
+  background-color: #bababa;
+}
