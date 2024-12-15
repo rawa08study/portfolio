@@ -5,7 +5,7 @@
   display: grid;
   grid-template-columns: 1fr;
   padding: 1em;
-
+  overflow: hidden;
   @include TABLET_BP {
     grid-template-columns: 200px 1fr;
     gap: 1em;
@@ -42,8 +42,9 @@
 }
 
 .technology-content {
-  padding: 1rem;
   width: 100%;
+  padding: 1rem;
+  overflow-y: scroll;
 }
 
 pre {
@@ -54,4 +55,30 @@ pre {
   overflow-x: auto;
   white-space: pre-wrap;
   word-break: break-word;
+}
+
+
+.technology-content {
+  scrollbar-width: auto;
+  scrollbar-color: $primary-background-color $primary-border-color;
+
+  /* Webkit-based browsers */
+  &::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: $primary-border-color;
+    border-radius: 10px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $primary-background-color;
+    border-radius: 10px;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: $primary-button-color;
+  }
 }

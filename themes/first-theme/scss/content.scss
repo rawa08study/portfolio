@@ -34,7 +34,7 @@ body {
   font-family: 'Times New Roman', Times, serif;
   overflow: scroll;
   background-color: $secondary-background-color;
-
+  
   @include TABLET_BP {
     align-items: flex-start;
   }
