@@ -1,0 +1,23 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+    <div class="technology-page analys-page">
+        <aside class="sidebar">
+            <nav class="technology-link-nav analys-nav">
+                <ul>
+                    <li class="icon-list-item"><a href="{{ base_url }}/analysis/01_colors/">Colors</a></li>
+                    <li class="icon-list-item"><a href="{{ base_url }}/analysis/02_load/">Load</a></li>
+                    <li class="icon-list-item"><a href="{{ base_url }}/analysis/03_design_principles/">Design principles</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <div class="technology-content analys-content">
+            {{ content }}
+        </div>
+    </div>
+    
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>
