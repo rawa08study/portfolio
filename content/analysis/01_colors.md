@@ -40,7 +40,7 @@ Detta skapar en variation som illustrerar hur visuella element används för att
 ## Resultat
 
 ### **1. Sean Halpin**   
-**Skärmdump**: <img src="../../image/sean.png" alt="https://seanhalpin.design">
+**Skärmdump**: ![https://seanhalpin.design](%assets_url%/img/sean.png)
   
  **Färgpalett**:
  <div class="palett-wrapper">
@@ -60,7 +60,7 @@ Detta skapar en variation som illustrerar hur visuella element används för att
 ---
 
 ### **2. Elaine Eksvärd**   
-**Skärmdump**: <img src="../../image/elain.png" alt="https://elaineeksvard.se/">
+**Skärmdump**:  ![https://elaineeksvard.se/](%assets_url%/img/elain.png)
 - **Färgpalett**:  
  <div class="palett-wrapper">
     <div class="palett-box elain-1"></div>
@@ -78,7 +78,7 @@ Detta skapar en variation som illustrerar hur visuella element används för att
 ---
 
 ### **3. Timothy Achumba**   
-**Skärmdump**: <img src="../../image/timothy.png" alt="https://timothyachumba.com">
+**Skärmdump**: ![https://timothyachumba.com](%assets_url%/img/timothy.png)
   **Färgpalett**:  
  <div class="palett-wrapper">
     <div class="palett-box tim-1"></div>
