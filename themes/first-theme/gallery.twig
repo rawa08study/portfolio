@@ -4,7 +4,20 @@
     {% include 'incl/nav.twig' %}
 
         <div class="gallery-page">
-            {{ content }}
+            {% for image in pages["gallery"].meta.Images %}
+                <a href="{{ base_url }}/image/gallery/{{ image }}" target="_blank">
+                <div class="gallery-image">
+                    <img 
+                    src="{{ base_url }}/image/gallery/{{ image }}"
+                    srcset="
+                    {{ base_url }}/image/gallery/{{ image }}?width=480 320w,
+                    {{ base_url }}/image/gallery/{{ image }}?width=768 480w,
+                    {{ base_url }}/image/gallery/{{ image }}?width=1200 768w"
+                  sizes="(max-width: 480px) 100vw, 33vw"
+                    />
+            </div>
+                </a>
+            {% endfor %}
         </div>
     
     

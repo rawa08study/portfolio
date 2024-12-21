@@ -1,3 +1,26 @@
+@use 'utils/styles' as *;
+
 .gallery-page {
     flex-grow: 1;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 1em;
+    gap: 1em;
+
+    @include PHABLET_BP {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    > a {
+        text-decoration: none;
+    }
+}
+
+.gallery-image {
+    overflow: hidden;
+
+    >* {
+        width: 100%;
+    }
+
 }
