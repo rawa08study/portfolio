@@ -38,7 +38,7 @@ Urvalet baseras på personer som inspirerar mig i mitt dagliga arbete eller i li
 ## Resultat och analys  
 
 ### **1. Sean Halpin**  
-**Skärmdump**: ![https://seanhalpin.design](%assets_url%/img/sean.png)  
+**Skärmdump**: ![https://seanhalpin.design](%base_url%/image/sean.png?w=50%)  
 
 **Testade sidor**:  
 [Startsidan](https://www.seanhalpin.xyz)  
@@ -68,7 +68,7 @@ Urvalet baseras på personer som inspirerar mig i mitt dagliga arbete eller i li
 ---
 
 ### **2. Elaine Eksvärd**  
-**Skärmdump**:  ![https://elaineeksvard.se/](%assets_url%/img/elain.png)  
+**Skärmdump**:  ![https://elaineeksvard.se/](%base_url%/image/elain.png?w=50%)  
 
 **Testade sidor**:  
  [Startsidan](https://elaineeksvard.se)  
@@ -100,7 +100,7 @@ Urvalet baseras på personer som inspirerar mig i mitt dagliga arbete eller i li
 ---
 
 ### **3. Redeye**  
-**Skärmdump**: ![https://redeye.se/](%assets_url%/img/redeye.png)  
+**Skärmdump**: ![https://redeye.se/](%base_url%/image/redeye.png?w=50%)  
 
 **Testade sidor**:  
 [Startsidan](https://redeye.se)  
