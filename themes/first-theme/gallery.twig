@@ -4,6 +4,7 @@
     {% include 'incl/nav.twig' %}
 
         <div class="gallery-page">
+            <div class="gallery-grid">
             {% for image in pages["gallery"].meta.Images %}
                 <a href="{{ base_url }}/image/gallery/{{ image }}" target="_blank">
                 <div class="gallery-image">
@@ -19,8 +20,14 @@
                 </a>
             {% endfor %}
         </div>
+            <div class="video-section">
+                <div class="embed-container">
+                    <iframe src="https://www.youtube.com/embed/X34ZmkeZDos?si=C0C8nOutcGrgAabL" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
     
-    
+
     {% include 'incl/footer.twig' %}
 </body>
 
