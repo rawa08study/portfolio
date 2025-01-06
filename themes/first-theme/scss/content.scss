@@ -15,7 +15,7 @@
 html,
 body {
   height: 100%;
-  background-color: $primary-background-color;
+  background-color: $bg-footer-and-nav;
 }
 
 body {
@@ -33,7 +33,7 @@ body {
   padding: 1rem;
   font-family: 'Times New Roman', Times, serif;
   overflow: scroll;
-  background-color: $secondary-background-color;
+  background-color: $bg-content;
   
   @include TABLET_BP {
     align-items: flex-start;

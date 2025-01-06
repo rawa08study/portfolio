@@ -7,7 +7,7 @@
   grid-template-rows: minmax(auto, 3rem) auto;
   gap: 2em 1em;
   padding: 1em;
-
+  background-color: $bg-content;
   @include TABLET_BP {
     grid-template-columns: repeat(3, 1fr);
   }

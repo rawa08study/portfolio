@@ -6,6 +6,7 @@
   grid-template-columns: 1fr;
   padding: 1em;
   overflow: hidden;
+  background-color: $bg-content;
   @include TABLET_BP {
     grid-template-columns: 200px 1fr;
     gap: 1em;
@@ -17,9 +18,9 @@
 
   @include TABLET_BP {
     display: flex;
-    background-color: $primary-background-color;
+    background-color: $bg-content;
     padding: 1em;
-    border-right: 1px solid $primary-border-color;
+    border-right: 1px solid $nav-border;
   }
 }
 
@@ -60,7 +61,7 @@ pre {
 
 .technology-content {
   scrollbar-width: auto;
-  scrollbar-color: $primary-background-color $primary-border-color;
+  scrollbar-color: $bg-nav-button $bg-footer-and-nav;
 
   /* Webkit-based browsers */
   &::-webkit-scrollbar {
@@ -69,16 +70,16 @@ pre {
   }
 
   &::-webkit-scrollbar-track {
-    background: $primary-border-color;
+    background: $bg-footer-and-nav;
     border-radius: 10px;
   }
 
   &::-webkit-scrollbar-thumb {
-    background: $primary-background-color;
+    background: $bg-nav-button;
     border-radius: 10px;
   }
 
   &::-webkit-scrollbar-thumb:hover {
-    background: $primary-button-color;
+    background: $bg-nav-button-hover;
   }
 }

@@ -6,15 +6,13 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @use '../../node_modules/normalize.css/normalize.css';
 
 @use 'utils/styles' as * with (
-  $primary-background-color: #1e1e2e,
-  $secondary-background-color: #282846,
-  $primary-border-color: #5c1dba,
+  $bg-footer-and-nav: #1C1C1E,
+  $text-nav-button: #F4F4F9,
+  $bg-content: #29292B,
+  $nav-border: #3A3A3D,
+  $footer-border: #4C4C50,
   $primary-font-color: #d4d4e3,
-  $primary-button-color: #803ee0,
-  $secondary-button-color: #a46efb,
-  $primary-hover-color: #5c1dba,
-  $primary-accent-color: #00e053,
-  $secondary-font-color: #d4d4e3,
+  $primary-accent-color: #00e053
 );
 
 @use 'nav';
