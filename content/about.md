@@ -1,6 +1,7 @@
 ---
 Title: About
 Description: About the technology behind this page
+template: about
 ---
 
 ### Tekniska specifikationer

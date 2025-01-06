@@ -12,6 +12,8 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
   $nav-border: #3A3A3D,
   $footer-border: #4C4C50,
   $border-image-card: #4C4C4C,
+  $border-heading-text: #fff,
+  $shadow-heading-text: rgba(255, 255, 255, 0.5),
   $primary-font-color: #d4d4e3,
   $primary-accent-color: #00e053
 );
@@ -23,3 +25,4 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @use 'technologies';
 @use 'analys';
 @use 'gallery';
+@use 'about';
