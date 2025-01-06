@@ -4,7 +4,7 @@ Description: En kort presentation om Rawa
 ---
 
 
-![Rawa Aref](image/Rawa_Aref.jpeg)
+![Rawa Aref](image/Rawa_Aref.jpeg?save-as=jpg)
 
 ##Välkommen till min sida.  
    
