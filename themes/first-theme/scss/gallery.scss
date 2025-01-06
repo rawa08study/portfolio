@@ -11,7 +11,7 @@
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   padding: 1em;
-  gap: 1em;
+  gap: 2em;
 
   @include PHABLET_BP {
     grid-template-columns: repeat(3, 1fr);
@@ -24,11 +24,21 @@
 
 .gallery-image {
   overflow: hidden;
+  background-color: $w-100;
+  border: 1px solid $border-image-card;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); 
+  }
 
   >* {
     width: 100%;
   }
-
 }
 
 .video-section {
