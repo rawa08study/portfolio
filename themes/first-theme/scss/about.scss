@@ -30,12 +30,12 @@
   a {
     text-decoration: none;
     font-weight: 600;
-    color: #5796f5;
+    color: $color-link;
     transition: color 0.2s ease-in-out;
   }
-  
+ 
   a:hover {
-    color: rgb(31, 116, 244);
+    color: $color-link-hover;
   }
 }
 

@@ -133,7 +133,7 @@ Optimera bilder genom att använda moderna format som WebP via Cloudinary.
 **Google Sheet-länk**: [Klicka här](https://docs.google.com/spreadsheets/d/1CLrQaNvHPAIM54P0IOh1CWz1b-EZVYYl2Ttuh02IZqI)  
 
 **Inbäddat data**:  
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS8iz1kjrgyvfTyIlhwT6ok5G9Hoxva9s4SwoLUCs1C2bqG28iZ7niwku_-uz1AYD44lUyN4pTWl3dO/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;range=A01:J12&amp;headers=false"  width="100%" height="500"></iframe>  
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS8iz1kjrgyvfTyIlhwT6ok5G9Hoxva9s4SwoLUCs1C2bqG28iZ7niwku_-uz1AYD44lUyN4pTWl3dO/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;range=A01:J12&amp;headers=false"  width="100%" height="500" title="Data och mätningar"></iframe>  
 
 ---
 
