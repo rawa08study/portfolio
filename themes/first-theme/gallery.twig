@@ -7,14 +7,14 @@
             <h1>My Gallery</h1>
             <div class="gallery-grid">
             {% for image in pages["gallery"].meta.Images %}
-                <a href="{{ base_url }}/image/gallery/{{ image }}" target="_blank">
+                <a href="{{ base_url }}/image/gallery/{{ image }}?q=50&save-as=jpg" target="_blank">
                 <div class="gallery-image">
                     <img 
                     src="{{ base_url }}/image/gallery/{{ image }}"
                     srcset="
-                    {{ base_url }}/image/gallery/{{ image }}?width=480 320w,
-                    {{ base_url }}/image/gallery/{{ image }}?width=768 480w,
-                    {{ base_url }}/image/gallery/{{ image }}?width=1200 768w"
+                    {{ base_url }}/image/gallery/{{ image }}?q=50&save-as=jpg&width=480 320w,
+                    {{ base_url }}/image/gallery/{{ image }}?q=50&save-as=jpg&width=768 480w,
+                    {{ base_url }}/image/gallery/{{ image }}?q=50&save-as=jpg&width=1200 768w"
                   sizes="(max-width: 480px) 100vw, 33vw"
                   alt="Christmas image from https://www.pexels.com"
                     />
@@ -24,7 +24,7 @@
         </div>
             <div class="video-section">
                 <div class="embed-container">
-                    <iframe src="https://www.youtube.com/embed/X34ZmkeZDos?si=C0C8nOutcGrgAabL" frameborder="0" allowfullscreen  title="find best editor"></iframe>
+                    <iframe src="https://www.youtube.com/embed/X34ZmkeZDos?si=C0C8nOutcGrgAabL" frameborder="0" loading="lazy" title="find best editor" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
