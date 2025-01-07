@@ -8,10 +8,9 @@
   },
   "scripts": {
     "lint": "stylelint \"**/*.scss\"",
-    "style": "npm run style-light && npm run style-dark",
-    "style-light": "sass first-theme/scss/style.scss first-theme/css/style.css --no-source-map",
-    "style-dark": "sass first-theme/scss/style-dark.scss first-theme/css/style-dark.css --no-source-map",
-    "style-min": "sass first-theme/scss/style.scss first-theme/css/style.min.css --no-source-map --style compressed"
+    "style": "npm run style-min-light && npm run style-min-dark",
+    "style-min-light": "sass first-theme/scss/style.scss first-theme/css/style.min.css --no-source-map --style compressed",
+    "style-min-dark": "sass first-theme/scss/style-dark.scss first-theme/css/style-dark.min.css --no-source-map --style compressed"
   },
   "author": "Rawa Aref",
   "license": "ISC",
